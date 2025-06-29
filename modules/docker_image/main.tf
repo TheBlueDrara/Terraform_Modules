@@ -1,3 +1,3 @@
 resource "docker_image" "my_docker_image" {
-  name = var.image_name
+  name = lookup(var.child_container_image, var.child_env)
 }
