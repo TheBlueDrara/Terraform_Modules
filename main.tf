@@ -10,5 +10,5 @@ module "my_container" {
   child_container_image = var.root_image_name
   child_container_name  = var.root_container_name
   child_ext_port        = var.root_ext_port
-  child_int_port        = "var.root_int_port"
+  child_int_port        = var.root_int_port
 }
