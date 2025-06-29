@@ -28,6 +28,6 @@ variable "root_ext_port" {
 }
 
 variable "root_int_port" {
-  type = number
-  default = 2368
+  type    = string
+  default = "2368"
 }

@@ -16,10 +16,10 @@ variable "child_container_name" {
 
 variable "child_ext_port" {
   description = "External port used"
-  type        = map(number)
+  type        = map(string)
 }
 
 variable "child_int_port" {
   description = "Internal port used"
-  type        = number
+  type        = string
 }

@@ -3,7 +3,7 @@ variable "child_env" {
   type        = string
 }
 
-variable "child_container_image" {
+variable "child_image_name" {
   description = "Image used in the container"
   type        = map(string)
 }
